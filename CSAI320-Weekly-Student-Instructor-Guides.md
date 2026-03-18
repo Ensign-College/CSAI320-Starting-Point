@@ -1,17 +1,17 @@
 # CSAI 320 - Weekly Student and Instructor Guides
 
 ## How to Use This Guide
-- Students: follow the weekly section in order and submit the listed evidence.
+- In the student-facing sections, follow the weekly section in order and submit the listed evidence.
 - Instructors: use facilitation notes to pace activities and support consistent grading.
 
 ## Week 1 - Build Your First AI Feature
 
 ### Week 1 Lesson Goal
-This week, students learn one big idea:
+This week, you learn one big idea:
 
 An AI feature is not magic. It is a software feature that takes user input, sends it to a model, receives a response, and shows that response in a useful way.
 
-By the end of the week, students should be able to build a simple chat app, explain what happens when a user sends a message, and describe how AI tools like GitHub Copilot can help with coding when used carefully.
+By the end of the week, you should be able to build a simple chat app, explain what happens when a user sends a message, and describe how AI tools like GitHub Copilot can help with coding when used carefully.
 
 ### Beginner-Friendly Big Picture
 Imagine a business website for a college, a small store, or a doctor office.
@@ -25,15 +25,15 @@ The application does four simple things:
 - The backend sends the message to an AI model.
 - The app shows the AI response back to the user.
 
-That is the first AI feature students will build.
+That is the first AI feature you will build.
 
-### Real-World Scenarios Students Can Relate To
+### Real-World Scenarios You Can Relate To
 - A student support chatbot helps a new student know what classes to take first.
 - A small business website helps a customer find the right product.
 - A church or community organization helps visitors find event times and contact information.
 - A tutoring app helps a learner ask simple questions and get quick explanations.
 
-These examples help students see that a chat feature is useful because it helps real people complete real tasks.
+These examples help you see that a chat feature is useful because it helps real people complete real tasks.
 
 ### Scaffolding - Concepts in Simple Language
 Core concepts:
@@ -46,27 +46,27 @@ Core concepts:
 - Context: helpful information given to the model so it can answer better.
 - Verification: checking whether the answer or code is correct.
 
-### Technical Terms with Student-Friendly Meanings
+### Technical Terms in Simple Language
 - Next.js: a tool that helps developers build web applications.
 - TypeScript: JavaScript with extra safety checks.
 - Component: one part of a screen, like a button, chat box, or header.
 - API call: a message from one computer system to another asking for data or action.
-- GitHub Copilot: an AI coding assistant that can suggest code, explain code, and help a student start faster.
+- GitHub Copilot: an AI coding assistant that can suggest code, explain code, and help you start faster.
 - Model provider: the company or service that gives access to the AI model.
 - Token: a small piece of text counted by the AI system.
 - System message: hidden instructions that guide the AI behavior.
 - User message: the message typed by the user.
 - Temperature: a setting that changes how creative or predictable the AI response is.
 
-### What Students Need to Understand Before Coding
-Before students build the chat app, they should be able to explain these ideas in plain language:
+### What You Need to Know Before Coding
+Before you build the chat app, make sure you can explain these ideas in plain language:
 - The screen the user sees is not the same as the code that talks to the AI.
 - The app should not talk directly from the browser to every secret service.
 - A good prompt gives the AI a clear job.
-- AI output can be wrong, incomplete, or confusing, so students must check it.
-- GitHub Copilot is an AI coding assistant that can help students write and explain code, but it is not a replacement for understanding.
+- AI output can be wrong, incomplete, or confusing, so you must check it.
+- GitHub Copilot is an AI coding assistant that can help you write and explain code, but it is not a replacement for understanding.
 
-### Student Guide
+### Your Weekly Guide
 Lesson sequence:
 1. Start with the question: What problem is this chat feature solving for a real person?
 2. Open the starter project and identify the page, input box, send button, and response area.
@@ -76,7 +76,7 @@ Lesson sequence:
 6. Use GitHub Copilot to suggest code, then read it carefully and change anything you do not understand or trust.
 7. Test the app with simple user questions.
 
-What students should practice saying:
+What you should practice saying:
 - The frontend collects the message.
 - The backend sends the message to the model.
 - The model returns a response.
@@ -137,11 +137,11 @@ Reflection prompt:
 ## Week 2 - Data and Memory
 
 ### Week 2 Lesson Goal
-This week, students learn another big idea:
+This week, you learn another big idea:
 
 If an app does not remember anything, it cannot grow into a useful product.
 
-By the end of the week, students should be able to explain how data is stored, why relationships matter, and how memory helps an AI conversation feel more helpful and natural.
+By the end of the week, you should be able to explain how data is stored, why relationships matter, and how memory helps an AI conversation feel more helpful and natural.
 
 ### Beginner-Friendly Big Picture
 Imagine a student support chat app from Week 1.
@@ -156,12 +156,12 @@ Without memory, the chat feels like talking to a person who forgets everything a
 
 With memory, the app can respond in a more helpful way.
 
-### Real-World Scenarios Students Can Relate To
+### Real-World Scenarios You Can Relate To
 - A student asks, I need help choosing classes. Later they ask, What about online options? The app should remember the earlier topic.
 - A customer starts shopping, leaves, and comes back later. The app should still know their saved information.
 - A tutoring app remembers a learner's last topic so it can continue helping instead of starting over.
 
-These examples help students understand that data storage is not just technical. It helps people continue a task without repeating themselves.
+These examples help you understand that data storage is not just technical. It helps people continue a task without repeating themselves.
 
 ### Scaffolding - Concepts in Simple Language
 Core concepts:
@@ -173,7 +173,7 @@ Core concepts:
 - Persistence: data stays saved even after the app closes or reloads.
 - Schema: the written structure of the data.
 
-### Technical Terms with Student-Friendly Meanings
+### Technical Terms in Simple Language
 - ERD (Entity Relationship Diagram): a picture that shows what data exists and how it connects.
 - Entity: one kind of thing in the system, such as User, Message, or Session.
 - Prisma: a tool that helps developers define and use database structure in code.
@@ -185,15 +185,15 @@ Core concepts:
 - One-to-one: one item is connected to one other item.
 - Many-to-one: many items connect back to one item.
 
-### What Students Need to Understand Before Coding
-Before students build data and memory features, they should be able to explain these ideas in plain language:
+### What You Need to Know Before Coding
+Before you build data and memory features, make sure you can explain these ideas in plain language:
 - The app needs a plan before storing data.
 - A user, a chat session, and a message are different things.
 - Messages must belong to the correct user and conversation.
 - Memory is not only for the AI model. It is also a software design choice.
 - If data is stored badly, the app becomes confusing, unreliable, and hard to improve.
 
-### Student Guide
+### Your Weekly Guide
 Lesson sequence:
 1. Start with the question: What information should this app remember to help the user better?
 2. List the main parts of the app's data, such as user, session, and message.
@@ -205,7 +205,7 @@ Lesson sequence:
 8. Save messages so the chat has memory.
 9. Test whether the app can remember earlier conversation details.
 
-What students should practice saying:
+What you should practice saying:
 - A user has conversations.
 - A conversation has messages.
 - The database stores those records.
@@ -280,7 +280,7 @@ Technical terms:
 - Idempotency: safely repeating an operation without unintended side effects.
 - HTTP status codes: standardized success/error indicators.
 
-### Student Guide
+### Your Weekly Guide
 - Implement at least one tool call to an external API.
 - Add validation and fallback handling for API failure scenarios.
 - Connect tool results into UI and backend workflows.
@@ -311,7 +311,7 @@ Technical terms:
 - Top-k retrieval: number of candidate passages returned.
 - Hallucination: plausible but unsupported model output.
 
-### Student Guide
+### Your Weekly Guide
 - Build ingestion and embedding flow for a small domain corpus.
 - Implement vector retrieval and context injection.
 - Compare outputs with and without retrieval grounding.
@@ -342,7 +342,7 @@ Technical terms:
 - Tool router: logic selecting which tool to call next.
 - Escalation path: fallback route when confidence or safety is low.
 
-### Student Guide
+### Your Weekly Guide
 - Implement workflow orchestration using LangGraph or similar framework.
 - Define agent rules, role boundaries, and escalation paths.
 - Add multi-step execution with observable state transitions.
@@ -373,7 +373,7 @@ Technical terms:
 - Build artifact: packaged output generated by build/test process.
 - Health check: quick signal that a deployed service is operational.
 
-### Student Guide
+### Your Weekly Guide
 - Improve UI clarity, navigation, and input validation.
 - Finalize CI pipeline and run all integration tests.
 - Deploy to Vercel and verify production accessibility.
@@ -404,7 +404,7 @@ Technical terms:
 - Postmortem or retrospective: structured reflection on what worked and what to improve.
 - Reproducibility: ability for others to run, validate, and verify your solution.
 
-### Student Guide
+### Your Weekly Guide
 - Finalize integrated full-stack AI product.
 - Present architecture, tradeoffs, and evidence of competency growth.
 - Defend ethical and security decisions.
