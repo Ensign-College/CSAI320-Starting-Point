@@ -57,12 +57,13 @@ Agents that can act: tools, APIs, and safeguards.
 
 ### Activities
 1. Define tool-calling interface for at least one external API.
-2. Add backend route handlers and tool wrappers.
-3. Implement validation and failure handling for tool responses.
-4. Document guardrails for safe tool usage.
+2. Use Tavily as a recommended starter example for web search tool integration.
+3. Add backend route handlers and tool wrappers.
+4. Implement validation and failure handling for tool responses.
+5. Document guardrails for safe tool usage.
 
 ### Project Milestone
-Agent can call at least one external API and return structured results to UI.
+Agent can call at least one external API, such as Tavily search, and return structured results to UI.
 
 ### Evidence
 - Tool integration demo

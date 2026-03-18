@@ -187,6 +187,11 @@ With memory, the app can respond in a more helpful way.
 - Resilience: handling errors, timeouts, or missing data.
 - Trust boundaries: checking outside data before using it.
 
+### Recommended Example Tool
+- Tavily is a strong Week 3 example because it gives you a practical search tool that an AI agent can call to find current information on the web.
+- It fits the course well because learners can quickly understand the user value: ask a question, search the web, return structured findings, and show the result in the app.
+- It also gives you a natural way to practice tool inputs, tool outputs, validation, error handling, and safe use of external data.
+
 ### Technical Terms
 - REST endpoint
 - JSON payload
@@ -197,6 +202,7 @@ With memory, the app can respond in a more helpful way.
 
 ### Your Tasks
 - Implement at least one tool call to an external API.
+- A recommended option is Tavily search as your first external tool.
 - Add validation and fallback handling for API failure scenarios.
 - Connect tool results into UI and backend workflows.
 
