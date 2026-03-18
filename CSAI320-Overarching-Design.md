@@ -85,13 +85,13 @@ Students complete a production-style project that includes frontend, backend, da
 
 ```mermaid
 flowchart TD
-    W1[Week 1: Foundation and First LLM Chat]\nNext.js setup, OpenAI call, GitHub Copilot workflow
-    W2[Week 2: Data and Memory]\nPrisma, relational schema, conversation memory
-    W3[Week 3: Tools and APIs]\nAgent tools, external APIs, guarded tool execution
-    W4[Week 4: RAG and Context Quality]\nVector DB, retrieval, context orchestration
-    W5[Week 5: Multi-Agent and Decision Logic]\nLangGraph-style workflows and alternatives
-    W6[Week 6: Reliability, UX, and Deployment]\nTesting, CI/CD, Vercel, production readiness
-    W7[Week 7: Capstone Integration and Defense]\nSummative delivery and reflection
+  W1["Week 1: Foundation and First LLM Chat<br/>Next.js setup, OpenAI call, GitHub Copilot workflow"]
+  W2["Week 2: Data and Memory<br/>Prisma, relational schema, conversation memory"]
+  W3["Week 3: Tools and APIs<br/>Agent tools, external APIs, guarded tool execution"]
+  W4["Week 4: RAG and Context Quality<br/>Vector DB, retrieval, context orchestration"]
+  W5["Week 5: Multi-Agent and Decision Logic<br/>LangGraph-style workflows and alternatives"]
+  W6["Week 6: Reliability, UX, and Deployment<br/>Testing, CI/CD, Vercel, production readiness"]
+  W7["Week 7: Capstone Integration and Defense<br/>Summative delivery and reflection"]
 
     W1 --> W2 --> W3 --> W4 --> W5 --> W6 --> W7
 ```
